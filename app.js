@@ -14,7 +14,7 @@ program
 		console.log("");
 		console.log("Examples");
 		console.log(
-			"$ node-cli-share -t recipientemail@gmail.com file1.txt file2.txt"
+			"$ cli-send -t recipientemail@gmail.com file1.txt file2.txt"
 		);
 		console.log("");
 	});
