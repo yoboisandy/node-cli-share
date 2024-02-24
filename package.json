@@ -1,0 +1,29 @@
+{
+  "name": "cli-share",
+  "version": "1.0.0",
+  "description": "cli-share is a command line tool to share files to any email.",
+  "main": "index.js",
+  "bin": {
+    "cli-share": "app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "cli",
+    "share",
+    "file",
+    "email",
+    "cli-share",
+    "share-cli",
+    "cli-share-file",
+    "file sharing email"
+  ],
+  "dependencies": {
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.10"
+  }
+}
