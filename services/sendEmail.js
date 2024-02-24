@@ -11,10 +11,10 @@ module.exports = async (options) => {
 	});
 
   await transporter.sendMail({
-    from: process.env.MAIL_FROM,
-    to: options.recipient,
-    subject: "Files shared via CLIShare",
-    text: "Here are the files shared with you via CLIShare",
-    attachments: options.files,
-  })
+		from: `CLIShare<${process.env.MAIL_FROM}>`,
+		to: options.recipient,
+		subject: "Files shared via CLIShare",
+		text: "Here are the files shared with you via CLIShare",
+		attachments: options.files,
+  });
 };
