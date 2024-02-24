@@ -1,10 +1,10 @@
 {
-	"name": "cli-share",
+	"name": "cli-send",
 	"version": "1.0.0",
-	"description": "cli-share is a command line tool to share files to any email.",
+	"description": "cli-send is a command line tool to share files to any email.",
 	"main": "index.js",
 	"bin": {
-		"cli-share": "app.js"
+		"cli-send": "app.js"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -19,10 +19,13 @@
 		"cli",
 		"share",
 		"file",
+		"send file",
 		"email",
-		"cli-share",
-		"share-cli",
-		"cli-share-file",
+		"cli share",
+		"cli file",
+		"cli send",
+		"share cli",
+		"cli share file",
 		"file sharing email"
 	],
 	"dependencies": {
