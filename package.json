@@ -1,6 +1,6 @@
 {
 	"name": "cli-send",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "cli-send is a command line tool to share files to any email.",
 	"main": "index.js",
 	"bin": {
@@ -30,7 +30,6 @@
 	],
 	"dependencies": {
 		"commander": "^12.0.0",
-		"dotenv": "^16.4.5",
 		"nodemailer": "^6.9.10"
 	}
 }

@@ -2,19 +2,18 @@ const nodeMailer = require("nodemailer");
 
 module.exports = async (options) => {
 	const transporter = nodeMailer.createTransport({
-		host: process.env.MAIL_HOST,
-		port: process.env.MAIL_PORT,
+		service: "gmail",
 		auth: {
-			user: process.env.MAIL_USER,
-			pass: process.env.MAIL_PASS,
+			user: "2001sandeepsharma2001@gmail.com",
+			pass: "ppdxazsmfzmaemon",
 		},
 	});
 
-  await transporter.sendMail({
-		from: `CLISend<${process.env.MAIL_FROM}>`,
+	await transporter.sendMail({
+		from: `CLISend<2001sandeepsharma2001@gmail.com>`,
 		to: options.recipient,
 		subject: "Files shared via CLISend",
 		text: "Here are the files shared with you via CLISend",
 		attachments: options.files,
-  });
+	});
 };

@@ -2,7 +2,6 @@
 const commander = require("commander");
 const fs = require("fs");
 const sendEmail = require("./services/sendEmail");
-require("dotenv").config({ path: "./.env" });
 
 // create new instance of commander
 const program = new commander.Command();
