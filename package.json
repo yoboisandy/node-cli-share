@@ -1,6 +1,6 @@
 {
 	"name": "cli-send",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "cli-send is a command line tool to share files to any email.",
 	"main": "index.js",
 	"bin": {
